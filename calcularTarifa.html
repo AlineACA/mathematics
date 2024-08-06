@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora de Tarifas de Energia</title>
+</head>
+<body>
+    <div>
+        <label for="consumo">Consumo de Energia (kWh):</label>
+        <input type="text" id="consumo">
+    </div>
+    <button onclick="calcularTarifa()">Calcular Tarifa</button>
+    <div>
+        <label id="resultadoTarifa"></label>
+    </div>
+
+    <script src="calculator.js"></script>
+    <p>Uma função por partes é uma função matemática que não segue uma única regra para todos os valores de seu domínio. 
+    Em vez disso, ela é definida por diferentes expressões ou "pedaços" em diferentes intervalos de seu domínio.
+    Em outras palavras, o comportamento da função "muda" dependendo do valor de x que você está analisando.</p>
+    
+    <p>Nesse caso, a tarifa muda de preço dependendo do consumo, onde:</p>
+
+    <p>  Se o consumo for menor ou igual a 100, a tarifa é 0.50 vezes o consumo.
+Se o consumo for maior que 100 e menor ou igual a 200, a tarifa é 50 mais 0.75 vezes a diferença entre o consumo e 100.
+Se o consumo for maior que 200, a tarifa é 125 mais o consumo menos 200.</p>
+
+</body>
+</html>

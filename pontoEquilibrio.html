@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora de Lucros!</title>
+</head>
+<body>
+    <div>
+        <label for="custoFixo">Custo Fixo:</label>
+        <input type="text" id="custoFixo">
+    </div>
+    <div>
+        <label for="custoVariavel">Custo Variável por Unidade:</label>
+        <input type="text" id="custoVariavel">
+    </div>
+    <div>
+        <label for="precoVenda">Preço de Venda por Unidade:</label>
+        <input type="text" id="precoVenda">
+    </div>
+    <div>
+        <label for="quantidadeVendida">Quantidade Vendida:</label>
+        <input type="text" id="quantidadeVendida">
+    </div>
+    <button onclick="calcular()">Calcular</button>
+    <div>
+        <label id="lucroTotalLabel"></label>
+    </div>
+    <div>
+        <label id="pontoEquilibrioLabel"></label>
+    </div>
+
+    <script src="calculator.js"></script>
+    <p>Nesse caso, temos 2 valores. Onde existe um custo fixo mensal de operação (aluguel, salários, etc.) e um custo variável de produção.
+        O objetivo, é saber o custo mínimo para poder superar o custo de produção, e assim, gerar lucros. </p>
+
+
+    
+</body>
+</html>

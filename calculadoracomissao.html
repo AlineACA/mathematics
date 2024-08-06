@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Commission Calculator</title>
+    
+</head>
+<body>
+    
+    
+    
+    <div>
+        <label for="salarioBase">Salário Base:</label>
+        <input type="text" id="salarioBase">
+    </div>
+    <div>
+        <label for="valorComissao">Valor Comissão:</label>
+        <input type="text" id="valorComissao">
+    </div>
+    <div>
+        <label for="numeroVendas">Número de Vendas:</label>
+        <input type="text" id="numeroVendas">
+    </div>
+    <button onclick="calcularComissao()">Calcular Comissão</button>
+    <div>
+        <label id="comissaoTotalLabel"></label>
+    </div>
+    <div>
+        <label id="salarioTotalLabel"></label>
+    </div>
+
+    <script src="calculator.js"></script>
+
+    <p>Esta função calcula essencialmente o quanto um funcionário ganha com base em seu salário base e na comissão obtida por suas vendas.
+        O que exemplifica o tipo de função sem variação de valores, apenas acréscimo constante. </p>
+    
+</body>
+</html>

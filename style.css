@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(172, 223, 240);
+  }
+
+
+p{
+    color:white;
+    background:gray;
+    font-size:large;
+    padding: 10px;
+}
+
+
+a {
+    font-family: monospace;
+    font-size: 16px;
+    width: 120px;
+    height: 60px;
+    background: rgb(210, 235, 170);
+    border-width: 10px solid green;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
